@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+        <title>Kallooppara Pally</title>
+        <link rel = "icon" href =  
+    "new_images/title/title.png" 
+            type = "image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Kallooppara Church, Kallooppara Pally, 
+	Kallooppara, st mary's orthodox church, mary's, Abayam, prayer, Christmas" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+<link href="new_css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<!-- color switch -->
+<link href="new_css/blast.min.css" rel="stylesheet" />
+<!-- portfolio -->
+<link href="new_css/portfolio.css" type="text/css" rel="stylesheet" media="all">
+<link href="new_css/style.css" type="text/css" rel="stylesheet" media="all">
+<!-- font-awesome icons -->
+<link href="new_css/font-awesome.min.css" rel="stylesheet">
+<!-- online-fonts -->
+<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+
+
+<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<link href="new_css/pagination.css" rel="stylesheet">
+</head>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="https://www.solodev.com/assets/pagination/jquery.twbsPagination.js"></script> -->
+<script type="text/javascript" src="new_js/JQueryPagination.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$('#pagination-demo').twbsPagination({
+totalPages: 5,
+// the current page that show on start
+startPage: 1,
+
+// maximum visible pages
+visiblePages: 5,
+
+initiateStartPageClick: true,
+
+// template for pagination links
+href: false,
+
+// variable name in href template for page number
+hrefVariable: '{{number}}',
+
+// Text labels
+first: 'First',
+prev: 'Previous',
+next: 'Next',
+last: 'Last',
+
+// carousel-style pagination
+loop: false,
+
+// callback function
+onPageClick: function (event, page) {
+   $('.page-active').removeClass('page-active');
+  $('#page'+page).addClass('page-active');
+},
+
+// pagination Classes
+paginationClass: 'pagination',
+nextClass: 'next',
+prevClass: 'prev',
+lastClass: 'last',
+firstClass: 'first',
+pageClass: 'page',
+activeClass: 'active',
+disabledClass: 'disabled'
+
+});
+
+});
+</script>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <!-- banner -->
+        <div id="home">
+            <!-- color scheme -->
+            <!-- <div class="blast-box">
+                <div class="blast-frame">
+                    <p>color schemes</p>
+                    <div class="blast-colors d-flex justify-content-center">
+                        <div class="blast-color">#23d48f</div>
+                        <div class="blast-color">#d3b800</div>
+                        <div class="blast-color">#18e7d3</div>
+                        <div class="blast-color">#e5902a</div>
+                        <div class="blast-color">#16d9e9</div>
+                        
+                    </div>
+                    <p class="blast-custom-colors">Choose Custom color</p>
+                    <input type="color" name="blastCustomColor" value="#d3b800">
+    
+                </div>
+                <div class="blast-icon"><span class="fa fa-paint-brush" aria-hidden="true"></span></div>
+            </div> -->
+            <header>
+                <nav style="background-color: black" class="navbar navbar-expand-lg navbar-light fixed-top navbar-expand-lg navbar-light navbar-fixed-top">
+                    <h1>
+                        <!-- <a class="navbar-brand" href="index.html" data-blast="color">
+                            Creature
+                        </a> -->
+                    </h1>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-lg-auto text-center">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.php" data-blast="color">Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown mt-lg-0 mt-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    ABOUT US<span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="nav-link" href="new_about.html">ABOUt CHURCH<H/a>
+                                    <a class="nav-link" href="new_church_history.html">CHURCH HISTORY</a>
+                                    <a class="nav-link" href="new_about_kallooppara.html">ABOUT KALLOOPPARA</a>
+                                    <!-- <a class="dropdown-item scroll nav-link" href="#posts">latest posts</a> -->
+                                </div>
+                            </li>
+                            
+                            <li class="nav-item dropdown mt-lg-0 mt-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    CHURCH<span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="nav-link" href="new_vicars_final.html">Vicars</a>
+                                    <a class="nav-link" href="new_g_bodies.html">Governing Body</a>
+                                    <a class="nav-link" href="new_bishops.html">Our Bishops</a>
+                                    <a class="nav-link" href="new_priests.html">Our Priests</a>
+                                    <!-- <a class="dropdown-item scroll nav-link" href="#posts">Spiritual Leaders</a> -->
+                                    <a class="nav-link" href="new_personalities.html">Personalities</a>
+                                    <a class="nav-link" href="new_mem.php">Church Members</a>
+                                    <a class="nav-link" href="new_child_churches.html">Child Churches</a>
+                                    <a class="nav-link" href="new_org_final.html">Other Organizations</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_event.html">EVENTS</a>
+                            </li>
+                            <li class="nav-item mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_news.html">NEWS</a>
+                            </li>
+                            <li class="nav-item  mt-lg-0 mt-3">
+                            <a class="nav-link" href="new_corona_news.php">Corona Updates</a>
+                        </li>
+                            <li class="nav-item mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_service.html">SERVICES</a>
+                            </li>
+                            <li class="nav-item mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_portfolio.html">GALLERY</a>
+                            </li>
+                            <li class="nav-item  mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_contact_us.php">Contact US</a>
+                            </li>
+                        </ul>
+                        <!-- <button type="button" class="btn  wthree-link-bnr bg-theme rounded-circle text-center mt-lg-0 mt-3" data-toggle="modal"
+                            aria-pressed="false" data-target="#exampleModal" data-blast="bgColor"> <span class="fa fa-user text-white"></span>
+                        </button> -->
+                    </div>
+    
+                </nav>
+            </header>
+    
+<!-- <div class="container"> -->
+
+    <h1 style ="text-align: center;margin-top:100px;color:rgb(97, 7, 7)";>CHILD CHURCHES (CHURCHES FORMED FROM OUR CHURCH)
+    </h1>
+    <p style="margin: 25px">Being one of the oldest churches in the Niranam Diocese of Malankara Sabha, our church is the parent church to many other churches in and around Kallooppara, Mallappally and Vennikulam. In the early days people from a wide area of land (Mallappally, Kottangal, Vennikulam, Eraviperoor, Thottabhagom, Njalbhagom, Kaviyoor, Kottoor etc) came to the church for worshiping. Later due to the inconvenience in reaching the church from far away places and due to the lack of space due to the increase in the number of members, other churches were formed in respective locations. But still this church holds a special place in the heart of all of them and many of the members of our child churches come and attend mass at the church on important days like Good Friday, Easter, Feasts etc. Given below is a list of all such child churches formed from this church.
+
+            </p>
+
+   <div class="jumbotron page" id="page1">
+      <!-- <div class="container"> -->
+         <!-- <h1 class="display-3">Adding Pagination to your Website</h1><br> -->
+         <hr>
+         <b>St. Mary's Church Vaypoor
+
+
+
+            </b>
+         <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                  
+                  margin: 0px 5px 25px 240px; margin-top: 5px">
+This is the first church formed from our church. The church is situated at Kottangal in the present Mallappally Taluk. There are no clear evidence regarding the origin of the church but it is believed that the church is around 600 years old and was built in the land given by the Edapally King. Now it is under the Chenganacherry diocese of the Zero Malabar Churches.
+
+</div>
+                <hr>
+                <b>St. Mary's Church Vengalassery, Mallappally
+
+                    </b>
+                        <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                  
+                  margin: 0px 5px 25px 240px; margin-top: 5px">
+The sanction for building this church was given by the then Travancore King Sri. Swathi Thirunal. The foundation stone was laid on 28th Midhunam, Kollavarsham 1009 (Malayalam calendar). The church is situated on the bank of river Manimala and both Marthomite and Orthodox believers worship in the church.
+
+</div>
+                <hr>
+                <b>St. Behnan's Orthodox Church, Vennikulam
+                    </b>
+                        <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                  
+                  margin: 0px 5px 25px 240px;">
+The church was built in AD 1841 (Kollavarsham 1017) in the name of Behnan Sahada. The christian believers from Kavunguprayaar, Muthupala, Paduthodu etc are worshipping here.
+
+</p>                </div>
+                <hr>
+                <b>St. George Orthodox Church, Chengaroor
+
+
+                    </b>
+                        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                  
+                  margin: 0px 5px 25px 240px;">
+The church was built on 8th of Idavam, Kollavarsham 1055 and the foundation stone was laid by His Holiness Geevarghese Mar Gregorious (Parumala Thirumeni). The church is popularly known as the first daughter of Parumala Thirumeni and is situated in the 1st ward of Kallooppara Panchayath and belongs to the Niranam Diocese of Malankara Sabha.
+
+</p>
+                </div>
+                <hr>
+
+      <!-- </div> -->
+   </div>
+
+
+   <div class="jumbotron page" id="page2">
+        <!-- <div class="container"> -->
+           <!-- <h1 class="display-3">Adding Pagination to your Website</h1><br> -->
+           <hr>
+           <b>
+            St. John's Knanaya Church, Thuruthicadu
+
+              </b>
+           <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                              
+                  <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                    
+                    margin: 0px 5px 25px 240px; margin-top: 5px">
+Due to the difficulties in going to the Knanaya church at Kallissery, the believers of Knanaya community used to attend the mass at Kallooppara church. Then in the beginning of Kollavarsham 1870 a new church was built at Thuruthicadu and was under the Niranam diocese of Malankara Sabha until the Knanaya Diocese came into existence in 1910. The church is situated in the 5th ward of the Kallooppara Panchayath.
+
+</div>
+                  <hr>
+                  <b>Emmanuel Marthoma Church, Eraviperoor
+
+
+                      </b>
+                          <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                              
+                  <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                    
+                    margin: 0px 5px 25px 240px; margin-top: 5px">
+The church was built in Kollavarsham 1068 (A.D 1892). The church was consecrated on 26th Makaram, Kollavarsham 1087 (February 8th A.D 1911) by Thithoos Second Metropolitan. It belongs to the Niranam - Maaraman Diocese of the Marthoma churches. The church is situated at Eraviperoor in the Thiruvalla - Ranni road.
+
+
+</p>
+                  </div>
+                  <hr>
+                  <b>Sleeba Orthodox Church, Kaviyoor
+
+
+                      </b>
+                          <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                              
+                  <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                    
+                    margin: 0px 5px 25px 240px;">
+The church was built in 1897 and the foundation stone was jointly laid by His Holiness Geevarghese Mar Gregorious of Parumala and His Grace Joseph Mar Divanasios, Pulikattil. The church is situated at Thottabhagon in the Thiruvalla - Kozhencherry road and belongs to the Niranam diocese of Malankara Sabha.
+
+
+</div>
+                  <hr>
+                  <b>St. Thomas Marthoma Church, Kallooppara
+
+
+
+                      </b>
+                          <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                              
+                  <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                    
+                    margin: 0px 5px 25px 240px;">
+The church was formed in Kollavarsham 1085 (A.D 1909). In the beginning there were 27 families and the mass was conducted in a temporary shed. In 1924 the parish built a permanent church and is situated in the 7th ward of Kallooppara Panchayath.
+
+</p>
+                  </div>
+                  <hr>
+  
+        <!-- </div> -->
+     </div>
+
+     <div class="jumbotron page" id="page3">
+            <hr>
+            <b>
+                Bethel Marthoma Church, Kallooppara
+
+
+               </b>
+            <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                               
+                   <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                     
+                     margin: 0px 5px 25px 240px; margin-top: 5px">
+The church was formed on February 18th 1912 and in the early days Rev. Yacoob Adangapurathu conducted services. The present church was built in 12th January 1918.
+
+
+</p>
+                   </div>
+                   <hr>
+                   <b>St. Gilbert Church, Kallooppara
+
+
+    
+                       </b>
+                           <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                               
+                   <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                     
+                     margin: 0px 5px 25px 240px; margin-top: 5px">
+The church was formed in 1920 and belonged to the Chenganacherry diocese of Malankara Catholic churches. Later in 1930 the church came under the Thiruvalla diocese. The present church was renovated in the year 1964/1965 and is situated at Kallooppara Junction.
+
+
+</p>
+                   </div>
+                   <hr>
+                   <b>
+                    Lourde Matha Church, Puthusserry
+
+
+                       </b>
+                           <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                               
+                   <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                     
+                     margin: 0px 5px 25px 240px;">
+    
+    The church was built in 1923 and belongs to the Chenganacherry diocese of Zero Malabar Churches. It is situated in Eettikal of the 7th ward of Kallooppara Panchayath.
+
+
+</p>
+    </div>
+                   <hr>
+                   <b>St. Mary's Orthodox Church, Kottoor
+
+
+    
+    
+                       </b>
+                           <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                               
+                   <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                     
+                     margin: 0px 5px 25px 240px;">
+    The church was built in 1955, due to the request of the families in Kottoor to the then diocese bishop His Garce Thoma Mar Divanasios. Currently there are 100 families worshiping in the church and the church belongs to the Niranam diocese of Malankara Sabha.
+
+</p>
+                   
+                   
+       </div>
+       <hr>
+       </div>
+       <div class="jumbotron page" id="page4">
+        <hr>
+        <b>
+            Sacred Heart Malankara Catholic Church, Kadamankulam
+
+
+
+           </b>
+        <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                           
+               <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                 
+                 margin: 0px 5px 25px 240px; margin-top: 5px">
+
+The church was built in 1920 and is a part of the Malankara Catholic Churches. The church is situated at Govt. hospital junction, Kadamankulam which belongs to the 10th ward of Kallooppara Panchayath.
+
+</p>
+               </div>
+               <hr>
+               <b>St. Mary's Jerusalem Orthodox Church, Puramattom
+
+
+
+
+                   </b>
+                       <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                           
+               <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                 
+                 margin: 0px 5px 25px 240px; margin-top: 5px">
+The church was built in 1912 and was renovated in 1960. The church is situated at Puramattom junction which belongs to the 10th ward of Puramattom Panchayath.
+
+
+
+</p>
+               </div>
+               <hr>
+               <b>
+                St. Thomas Orthodox Church, Eraviperoor
+
+
+                   </b>
+                       <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                           
+               <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                 
+                 margin: 0px 5px 25px 240px;">
+
+The church is situated in the 2nd ward of Eraviperoor Panchayath.
+
+
+
+</p>
+</div>
+               <hr>
+               <b>St. Stephen's Orthodox Church, Kallooppara
+
+
+
+
+
+                   </b>
+                       <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                           
+               <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+                 
+                 margin: 0px 5px 25px 240px;">
+The church was built around 70 years ago and came under the Niranam diocese of Malankara Sabha 45 years ago. The church is situated in the 7th ward of Kallooppara Panchayath.
+
+
+</p>
+               
+               
+   </div>
+   <hr>
+       </div>
+   <div class="jumbotron page" id="page5">
+    <hr>
+    <b>
+        Sleeba Marthoma Church, Njalbhagam, Kaviyoor
+
+
+
+
+       </b>
+    <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                       
+           <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+             
+             margin: 0px 5px 25px 240px; margin-top: 5px">
+
+The foundation stone for the church was laid in 6th August 1907 and the construction was completed in December 1908. The church is situated at Njalbhagom in Kaviyoor Panchayath.
+
+
+</p>
+           </div>
+           <hr>
+           <b>St. George Orthodox Church, Kadamankulam
+
+
+
+
+
+               </b>
+                   <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                       
+           <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+             
+             margin: 0px 5px 25px 240px; margin-top: 5px">
+A chapel was created at first in 28th September 1947. Then in 1961 the then diocese bishop of Niranam His Grace Thoma Mar Divanasios has lifted the chapel to the status of a parish. In 1962 the present church was built and is situated in the 10th ward of Kallooppara Panchayath.
+
+
+
+
+</p>
+           </div>
+           <hr>
+           <b>
+            St. Kuriakose Orthodox Church, Puramattom
+
+
+
+               </b>
+                   <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                       
+           <p><img class="img-fluid img-thumbnail" src="new_images/child_churches/img_not_available.png" width="100" height="140" style ="float: left;
+             
+             margin: 0px 5px 25px 240px;">
+
+The church was built in 22nd April 1963 in the name of Kuriakose Sahada. The church is situated at Puramattom which belongs to the 10th ward of Puramattom Panchayath.
+
+
+
+
+</p>
+</div>
+           
+<hr>
+</div>
+
+ 
+   <ul id="pagination-demo" class="pagination-lg" style="
+   margin-bottom: 10px;"></ul>
+   
+</div>
+<div>
+    <footer class="cpy-right bg-theme" style="background-color: rgb(104, 0, 52);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="wthree-social">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-facebook-f icon_facebook"></span>
+                                </a>
+                            </li>
+                            <!-- <li>
+                                <a href="#">
+                                    <span class="fa fa-twitter icon_twitter"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-dribbble icon_dribbble"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-google-plus icon_g_plus"></span>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-lg-right mt-lg-0 mt-4">
+                    <p style="color:white">© 2020 St Marys OrthodoxChurch. All rights reserved | Design by
+                        Smith | Linu | Sherlin
+                        <!-- <a href="http://w3layouts.com"> W3layouts.</a> -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+        <!-- </div> -->
+
+        <script src="new_js/SmoothScroll.min.js"></script>
+        <!-- //smooth-scrolling-of-move-up -->
+        <!-- color switch -->
+        <script src="new_js/blast.min.js"></script>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="new_js/bootstrap.js"></script>
+
+        <script src="new_js/scrolling-nav.js"></script>
+    <script src="new_js/counter.js"></script>
+    <!-- portfolio -->
+    <!-- <script src="js/jquery.picEyes.js"></script> -->
+    <script>
+        $(function () {
+            //picturesEyes($('.demo li'));
+            $('.demo li').picEyes();
+        });
+    </script>
+    <!-- //portfolio -->
+    <!-- start-smooth-scrolling -->
+    <script src="new_js/move-top.js"></script>
+    <script src="new_js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+
+    
+        </body>
+
+</html>

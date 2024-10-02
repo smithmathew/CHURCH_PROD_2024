@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+        <title>Kallooppara Pally</title>
+        <!-- <base href="/" /> -->
+        <link rel = "icon" href =  
+    "new_images/title/title.png" 
+            type = "image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Kallooppara Church, Kallooppara Pally, 
+	Kallooppara, st mary's orthodox church, mary's, Abayam, prayer, Christmas" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    
+<link href="new_css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<!-- color switch -->
+<link href="new_css/blast.min.css" rel="stylesheet" />
+<!-- portfolio -->
+<link href="new_css/portfolio.css" type="text/css" rel="stylesheet" media="all">
+<link href="new_css/style.css" type="text/css" rel="stylesheet" media="all">
+<!-- font-awesome icons -->
+<link href="new_css/font-awesome.min.css" rel="stylesheet">
+<!-- online-fonts -->
+<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+
+
+<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<link href="new_css/pagination.css" rel="stylesheet">
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="https://www.solodev.com/assets/pagination/jquery.twbsPagination.js"></script> -->
+<script type="application/javascript" src="new_js/JQueryPagination.js"></script>
+<script>
+$(document).ready(function() {
+$('#pagination-demo').twbsPagination({
+totalPages: 5,
+// the current page that show on start
+startPage: 1,
+
+// maximum visible pages
+visiblePages: 5,
+
+initiateStartPageClick: true,
+
+// template for pagination links
+href: false,
+
+// variable name in href template for page number
+hrefVariable: '{{number}}',
+
+// Text labels
+first: 'First',
+prev: 'Previous',
+next: 'Next',
+last: 'Last',
+
+// carousel-style pagination
+loop: false,
+
+// callback function
+onPageClick: function (event, page) {
+   $('.page-active').removeClass('page-active');
+  $('#page'+page).addClass('page-active');
+},
+
+// pagination Classes
+paginationClass: 'pagination',
+nextClass: 'next',
+prevClass: 'prev',
+lastClass: 'last',
+firstClass: 'first',
+pageClass: 'page',
+activeClass: 'active',
+disabledClass: 'disabled'
+
+});
+
+});
+</script>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <!-- banner -->
+        <div id="home">
+          
+            <!-- <div class="blast-box">
+                <div class="blast-frame">
+                    <p>color schemes</p>
+                    <div class="blast-colors d-flex justify-content-center">
+                        <div class="blast-color">#23d48f</div>
+                        <div class="blast-color">#d3b800</div>
+                        <div class="blast-color">#18e7d3</div>
+                        <div class="blast-color">#e5902a</div>
+                        <div class="blast-color">#16d9e9</div>
+                      
+                    </div>
+                    <p class="blast-custom-colors">Choose Custom color</p>
+                    <input type="color" name="blastCustomColor" value="#d3b800">
+    
+                </div>
+                <div class="blast-icon"><span class="fa fa-paint-brush" aria-hidden="true"></span></div>
+            </div> -->
+            <header>
+                <nav style="background-color:black" class="navbar navbar-expand-lg navbar-light fixed-top navbar-expand-lg navbar-light navbar-fixed-top">
+                    <h1>
+                        <!-- <a class="navbar-brand" href="index.html" data-blast="color">
+                            Creature
+                        </a> -->
+                    </h1>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-lg-auto text-center">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.php" data-blast="color">Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown mt-lg-0 mt-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    ABOUT US<span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="nav-link" href="new_about.html">ABOUt CHURCH<H/a>
+                                    <a class="nav-link" href="new_church_history.html">CHURCH HISTORY</a>
+                                    <a class="nav-link" href="new_about_kallooppara.html">ABOUT KALLOOPPARA</a>
+                                    <!-- <a class="dropdown-item scroll nav-link" href="#posts">latest posts</a> -->
+                                </div>
+                            </li>
+                            
+                            <li class="nav-item dropdown mt-lg-0 mt-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    CHURCH<span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="nav-link" href="new_vicars_final.html">Vicars</a>
+                                    <a class="nav-link" href="new_g_bodies.html">Governing Body</a>
+                                    <a class="nav-link" href="new_bishops.html">Our Bishops</a>
+                                    <a class="nav-link" href="new_priests.html">Our Priests</a>
+                                    <!-- <a class="dropdown-item scroll nav-link" href="#posts">Spiritual Leaders</a> -->
+                                    <a class="nav-link" href="new_personalities.html">Personalities</a>
+                                    <a class="nav-link" href="new_mem.php">Church Members</a>
+                                    <a class="nav-link" href="new_child_churches.html">Child Churches</a>
+                                    <a class="nav-link" href="new_org_final.html">Other Organizations</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_event.html">EVENTS</a>
+                            </li>
+                            <li class="nav-item mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_news.html">NEWS</a>
+                            </li>
+                            <li class="nav-item  mt-lg-0 mt-3">
+                            <a class="nav-link" href="new_corona_news.php">Corona Updates</a>
+                        </li>
+                            <li class="nav-item mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_service.html">SERVICES</a>
+                            </li>
+                            <li class="nav-item mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_portfolio.html">GALLERY</a>
+                            </li>
+                            <li class="nav-item  mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_contact_us.php">Contact US</a>
+                            </li>
+                        </ul>
+                        <!-- <button type="button" class="btn  wthree-link-bnr bg-theme rounded-circle text-center mt-lg-0 mt-3" data-toggle="modal"
+                            aria-pressed="false" data-target="#exampleModal" data-blast="bgColor"> <span class="fa fa-user text-white"></span>
+                        </button> -->
+                    </div>
+    
+                </nav>
+            </header>
+    
+<!-- <div class="container"> -->
+
+    <h1 style ="text-align: center;margin-top:100px;color:rgb(97, 7, 7)";>Our Bishops</h1>
+    <p style="margin: 25px">Our church is blessed and honored to be guided by some of the great bishops of Malankara Sabha, starting from His Holiness Geevarghese Mar Gregorious (Parumala Thirumeni) to His Grace Geevarghese Mar Osthathios. Given below is a list of all those great men who has blessed and guided us all these years
+
+
+
+            </p>
+
+   <div class="jumbotron page" id="page1">
+      <!-- <div class="container"> -->
+         <!-- <h1 class="display-3">Adding Pagination to your Website</h1><br> -->
+         <hr>
+         <b>His Grace Geevarghese Mar Gregorious (Parumala Thirumeni) (1877 - 1902)
+
+            </b>
+         <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/bishops/001_small.jpg" width="100" height="140" style ="float: left;
+                  
+                  margin: 0px 5px 25px 240px; margin-top: 5px">
+                His Grace Geevarghese Mar Gregorious has guided the church from 5th May 1877 to 2nd November 1902. His grace has been a regular visitor to the church and has great love for the people of Kallooppara. In due respect to his grace there ia a prayer room dedicated to him in the church
+                </p>
+                </div>
+                <hr>
+                <b>His Grace Joseph Mar Deevanasios, Pulikattil (1902 - 1909)
+
+                    </b>
+                        <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/bishops/Pulikkottil_thirumeni_small.jpg" width="100" height="140" style ="float: right;
+                  
+                  ">
+
+His Grace Joseph Mar Deevanasios, Pulikattil (1902 - 1909) After the death of His Holiness Geevarghese Mar Gregorious, His Grace Joseph Mar Deevanasios, Pulikattil has taken charge as the diocese bishop and served the diocese very efficiently until his death in 1909.                </p>
+                </div>
+                <hr>
+                <b>His Grace Geevarghese Mar Deevanasios, Vattasseril (1909 - 1912)
+
+                    </b>
+                        <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/bishops/002_small.jpg" width="100" height="140" style ="float: left;
+                  
+                  margin: 0px 5px 25px 240px;">
+                Rev. Fr.Cherian George, Kochumalil served the church from 1st of June 2012 to May 2015.</p>
+                </div>
+                <hr>
+                <b>His Grace Geevarghese Mar Gregorious (1912 - 1929)
+
+                    </b>
+                        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/bishops/004_small.jpg" width="100" height="140" style ="float: right;
+                  
+                  ">
+His grace served the diocese from 1912 to 1929 and in 1929 his grace was chosen as the Catholicose of the East and so his grace retired from the post of diocese bishop. From 1929 to 1933 His Grace Geevarghese Mar Deevanasios, Vattasseril again served as the diocese bishop.                
+                </p>
+                </div>
+                <hr>
+                <b>His Grace Joseph Mar Savarious (1933 - 1937)
+
+
+                    </b>
+                        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/bishops/img_not_available.png" width="100" height="140" style ="float: left;
+                  
+                  margin: 0px 5px 25px 240px;">
+
+His grace belongs to Valakuzhy in Vennikulam panchayath. His grace served the diocese from the year 1933 to 1937 and in the year 1937 his grace migrated to the Catholic Syrian Church. So from 1937 to 1944 His Grace Geevarghese Second has served as the bishop of the church.                </p>
+                </div>
+                <hr>
+                <b>His Grace Thoma Mar Deevanasios (1944 - 1972)
+
+
+                    </b>
+                        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/bishops/Thoma-Mar-Divan_small.jpg" width="100" height="140" style ="float: right;
+                  
+                 ">
+His Grace Thoma Mar Deevanasios became the bishop of the church in 1944. His grace has been a great support and strength to the church and members during the Malankara sabha cases. His grace passed away on 3rd December 1972 and was buried in Mount Tabore Dayara, Pathanapuram. After his demise His Grace Augen First Bava served the church from 1972 to 1975 and His Grace Mathews Second Bava from 1975 to 1976.
+
+</p>
+                </div>
+                <hr>
+                <b>His Grace Geevarghese Mar Osthathios (1976 - 2007)
+
+
+
+                    </b>
+                        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/bishops/007_small.jpg" width="100" height="140" style ="float: left;
+                  
+                  margin: 0px 5px 25px 240px;">
+His grace took charge of the Niranam diocese on 1st of April 1976 and served as the diocese bishop till 2007. Currently his grace is the senior diocese bishop of Niranam. His contributions to the society has been remarkable, his grace has started and guided many charitable organization to help the poor and needy irrespective of caste and religion. His grace has written many books of social and religious values and has always been a role model to all.
+</p>
+                </div>
+                <hr>
+                <b>His Grace Yoohanon Mar Chrisostamos (2007 - till date)
+
+
+
+                    </b>
+                        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/bishops/008_small.jpg" width="100" height="140" style ="float: right;
+                  
+                  ">
+His grace was born in 1954 as the son of Mr KV Yohannan and Mrs Aleyamma Yohannan, Mannil Puthen Purayil, Kottoor, Thiruvalla. He had his early education in local schools at Kottoor, and college education at SB College, Chenganachery. After completing BSc from the University of Kerala, he joined Orthodox Theological Seminary, Kottayam, and took his GST and BD from Serampore University. He did his MTH from United Theological College, Bangalore, and PhD from The San Francisco Theological Seminary. He was ordained as a Metropolitan on 5 March 2005 by HH Baselios Mathews II at Parumala Seminary. He took the charge of Niranam Diocese from His Grace Geevarghese Mar Osthathios in 2007.
+
+
+</p>
+                </div>
+                <hr>
+      <!-- </div> -->
+   </div>
+
+
+
+
+
+   <!-- <div class="jumbotron page" id="page2">
+        <hr>
+        <b>Rev. Fr. Philip N Cherian (2015 - 2018)
+           </b>
+        <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                           
+               <p><img class="img-fluid img-thumbnail" src="images/Fr_Joji_small.jpg" width="100" height="140" style ="float: left;
+                 
+                 margin: 0px 5px 25px 240px; margin-top: 5px">
+               Rev. Fr. Joji M Abraham, Malikapeedikayil served the church from 1st of June 2015 to May 2018.
+               </p>
+               </div>
+               <hr>
+               <b>Rev. Fr. Philip N Cherian (2015 - 2018)
+                  </b>
+               <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                  
+                      <p><img class="img-fluid img-thumbnail" src="images/Fr_Joji_small.jpg" width="100" height="140" style ="float: left;
+                        
+                        margin: 0px 5px 25px 240px; margin-top: 5px">
+                      Rev. Fr. Joji M Abraham, Malikapeedikayil served the church from 1st of June 2015 to May 2018.
+                      </p>
+                      </div>
+                      <hr>
+                      <b>Rev. Fr. Philip N Cherian (2015 - 2018)
+                         </b>
+                      <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                         
+                             <p><img class="img-fluid img-thumbnail" src="images/Fr_Joji_small.jpg" width="100" height="140" style ="float: left;
+                               
+                               margin: 0px 5px 25px 240px; margin-top: 5px">
+                             Rev. Fr. Joji M Abraham, Malikapeedikayil served the church from 1st of June 2015 to May 2018.
+                             </p>
+                             </div>
+                             <hr>
+                             <b>Rev. Fr. Philip N Cherian (2015 - 2018)
+                                </b>
+                             <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                                
+                                    <p><img class="img-fluid img-thumbnail" src="images/Fr_Joji_small.jpg" width="100" height="140" style ="float: left;
+                                      
+                                      margin: 0px 5px 25px 240px; margin-top: 5px">
+                                    Rev. Fr. Joji M Abraham, Malikapeedikayil served the church from 1st of June 2015 to May 2018.
+                                    </p>
+                                    </div>
+  
+   </div> -->
+
+   <ul style="display: none" id="pagination-demo"></ul>
+</div>
+
+<footer class="cpy-right bg-theme" style="background-color: rgb(104, 0, 52);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="wthree-social">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-facebook-f icon_facebook"></span>
+                                </a>
+                            </li>
+                            <!-- <li>
+                                <a href="#">
+                                    <span class="fa fa-twitter icon_twitter"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-dribbble icon_dribbble"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-google-plus icon_g_plus"></span>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-lg-right mt-lg-0 mt-4">
+                    <p style="color:white">© 2020 St Marys OrthodoxChurch. All rights reserved | Design by
+                        Smith | Linu | Sherlin
+                        <!-- <a href="http://w3layouts.com"> W3layouts.</a> -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+        <!-- </div> -->
+        <script>
+                $(document).ready(function () {
+                    /*
+                    var defaults = {
+                        containerID: 'toTop', // fading element id
+                        containerHoverID: 'toTopHover', // fading element hover id
+                        scrollSpeed: 1200,
+                        easingType: 'linear' 
+                    };
+                    */
+                    $().UItoTop({
+                        easingType: 'easeOutQuart'
+                    });
+        
+                });
+            </script>
+    <script src="new_js/jquery.picEyes.js"></script>
+
+        <script src="new_js/SmoothScroll.min.js"></script>
+        <!-- //smooth-scrolling-of-move-up -->
+        <!-- color switch -->
+        <script src="new_js/blast.min.js"></script>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="new_js/bootstrap.js"></script>
+
+        <script src="new_js/scrolling-nav.js"></script>
+    <script src="new_js/counter.js"></script>
+    <!-- portfolio -->
+    <!-- <script src="js/jquery.picEyes.js"></script> -->
+    <script>
+        $(function () {
+            picturesEyes($('.demo li'));
+            $('.demo li').picEyes();
+        });
+    </script>
+    <!-- //portfolio -->
+    <!-- start-smooth-scrolling -->
+    <script src="new_js/move-top.js"></script>
+    <script src="new_js/easing.js"></script>
+   
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+        </body>
+</head>

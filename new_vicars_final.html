@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+        <title>Kallooppara Pally</title>
+        <link rel = "icon" href =  
+    "new_images/title/title.png" 
+            type = "image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Kallooppara Church, Kallooppara Pally, 
+	Kallooppara, st mary's orthodox church, mary's, Abayam, prayer, Christmas" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+<link href="new_css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<!-- color switch -->
+<link href="new_css/blast.min.css" rel="stylesheet" />
+<!-- portfolio -->
+<link href="new_css/portfolio.css" type="text/css" rel="stylesheet" media="all">
+<link href="new_css/style.css" type="text/css" rel="stylesheet" media="all">
+<!-- font-awesome icons -->
+<link href="new_css/font-awesome.min.css" rel="stylesheet">
+<!-- online-fonts -->
+<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+
+
+<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<link href="new_css/pagination.css" rel="stylesheet">
+</head>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="https://www.solodev.com/assets/pagination/jquery.twbsPagination.js"></script> -->
+<script type="text/javascript" src="new_js/JQueryPagination.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$('#pagination-demo').twbsPagination({
+totalPages: 5,
+// the current page that show on start
+startPage: 1,
+
+// maximum visible pages
+visiblePages: 5,
+
+initiateStartPageClick: true,
+
+// template for pagination links
+href: false,
+
+// variable name in href template for page number
+hrefVariable: '{{number}}',
+
+// Text labels
+first: 'First',
+prev: 'Previous',
+next: 'Next',
+last: 'Last',
+
+// carousel-style pagination
+loop: false,
+
+// callback function
+onPageClick: function (event, page) {
+   $('.page-active').removeClass('page-active');
+  $('#page'+page).addClass('page-active');
+},
+
+// pagination Classes
+paginationClass: 'pagination',
+nextClass: 'next',
+prevClass: 'prev',
+lastClass: 'last',
+firstClass: 'first',
+pageClass: 'page',
+activeClass: 'active',
+disabledClass: 'disabled'
+
+});
+
+});
+</script>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <!-- banner -->
+        <div id="home">
+            <!-- color scheme -->
+            <!-- <div class="blast-box">
+                <div class="blast-frame">
+                    <p>color schemes</p>
+                    <div class="blast-colors d-flex justify-content-center">
+                        <div class="blast-color">#23d48f</div>
+                        <div class="blast-color">#d3b800</div>
+                        <div class="blast-color">#18e7d3</div>
+                        <div class="blast-color">#e5902a</div>
+                        <div class="blast-color">#16d9e9</div>
+                        
+                    </div>
+                    <p class="blast-custom-colors">Choose Custom color</p>
+                    <input type="color" name="blastCustomColor" value="#d3b800">
+    
+                </div>
+                <div class="blast-icon"><span class="fa fa-paint-brush" aria-hidden="true"></span></div>
+            </div> -->
+            <header>
+                <nav style="background-color:black" class="navbar navbar-expand-lg navbar-light fixed-top navbar-expand-lg navbar-light navbar-fixed-top">
+                    <h1>
+                        <!-- <a class="navbar-brand" href="index.html" data-blast="color">
+                            Creature
+                        </a> -->
+                    </h1>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-lg-auto text-center">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.php" data-blast="color">Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown mt-lg-0 mt-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    ABOUT US<span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="nav-link" href="new_about.html">ABOUt CHURCH<H/a>
+                                    <a class="nav-link" href="new_church_history.html">CHURCH HISTORY</a>
+                                    <a class="nav-link" href="new_about_kallooppara.html">ABOUT KALLOOPPARA</a>
+                                    <!-- <a class="dropdown-item scroll nav-link" href="#posts">latest posts</a> -->
+                                </div>
+                            </li>
+                            
+                            <li class="nav-item dropdown mt-lg-0 mt-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    CHURCH<span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="nav-link" href="new_vicars_final.html">Vicars</a>
+                                    <a class="nav-link" href="new_g_bodies.html">Governing Body</a>
+                                    <a class="nav-link" href="new_bishops.html">Our Bishops</a>
+                                    <a class="nav-link" href="new_priests.html">Our Priests</a>
+                                    <!-- <a class="dropdown-item scroll nav-link" href="#posts">Spiritual Leaders</a> -->
+                                    <a class="nav-link" href="new_personalities.html">Personalities</a>
+                                    <a class="nav-link" href="new_mem.php">Church Members</a>
+                                    <a class="nav-link" href="new_child_churches.html">Child Churches</a>
+                                    <a class="nav-link" href="new_org_final.html">Other Organizations</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_event.html">EVENTS</a>
+                            </li>
+                            <li class="nav-item mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_news.html">NEWS</a>
+                            </li>
+                            <li class="nav-item  mt-lg-0 mt-3">
+                            <a class="nav-link" href="new_corona_news.php">Corona Updates</a>
+                        </li>
+                            <li class="nav-item mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_service.html">SERVICES</a>
+                            </li>
+                            <li class="nav-item mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_portfolio.html">GALLERY</a>
+                            </li>
+                            <li class="nav-item  mt-lg-0 mt-3">
+                                <a class="nav-link" href="new_contact_us.php">Contact US</a>
+                            </li>
+                        </ul>
+                        <!-- <button type="button" class="btn  wthree-link-bnr bg-theme rounded-circle text-center mt-lg-0 mt-3" data-toggle="modal"
+                            aria-pressed="false" data-target="#exampleModal" data-blast="bgColor"> <span class="fa fa-user text-white"></span>
+                        </button> -->
+                    </div>
+    
+                </nav>
+            </header>
+    
+<!-- <div class="container"> -->
+
+    <h1 style ="text-align: center;margin-top:100px;color:rgb(97, 7, 7)";>Our Vicars</h1>
+    <p style="margin: 25px">We are much honored to be blessed and guided by some of the finest 
+        priests of Malankara Sabha, whose vision and able leadership has             
+        made us come a long way from our humble beginning. Given below is a 
+        list of all those great vicars of the church starting from twentieth 
+        century and the years in which they served our church.
+
+            </p>
+
+   <div class="jumbotron page" id="page1">
+      <!-- <div class="container"> -->
+         <!-- <h1 class="display-3">Adding Pagination to your Website</h1><br> -->
+         <hr>
+         <b>Rev. Fr. Joji M Abraham (2015 - 2018)
+
+            </b>
+         <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/vicars/Fr_Joji_small.jpg" width="100" height="140" style ="float: left;
+                  
+                  margin: 0px 5px 25px 240px; margin-top: 5px">
+                Rev. Fr. Joji M Abraham, Malikapeedikayil served the church from 1st of June 2015 to May 2018.
+                </p>
+                </div>
+                <hr>
+                <b>Rev. Fr. Philip N Cherian (2015 - 2018)
+                    </b>
+                        <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/vicars/Fr_Philip_N_Cherian_small.jpg" width="100" height="140" style ="float: left;
+                  
+                  margin: 0px 5px 25px 240px; margin-top: 5px">
+                Rev. Fr. Philip N Cherian, Nalathara Naduparampil served the church from 1st of June 2015 to May 2018.
+                </p>
+                </div>
+                <hr>
+                <b>Rev. Fr.Cherian George (2012 - 2015)
+                    </b>
+                        <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/vicars/fr_cherian_george_small.jpg" width="100" height="140" style ="float: left;
+                  
+                  margin: 0px 5px 25px 240px;">
+                Rev. Fr.Cherian George, Kochumalil served the church from 1st of June 2012 to May 2015.</p>
+                </div>
+                <hr>
+                <b>Rev. Fr. Gigi Varghese (2009 - 2012)
+                    </b>
+                        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                            
+                <p><img class="img-fluid img-thumbnail" src="new_images/vicars/giji_varghese_small.gif" width="100" height="140" style ="float: left;
+                  
+                  margin: 0px 5px 25px 240px;">
+                Rev. Fr. Gigi Varghese took charge of the church on 1st of June 2009 to May 2012. He was born on 18th of December 1971 to the Parappallil family at Kadamankulam, Kallooppara. His home parish is St. George Orthodox church, Kadamankulam. After completing his graduation in Commerce he joined the The Orthodox Theological Seminary, Kottayam. He was ordained as a priest on 27th of January 2000. He is married and his wife is Mrs. Jaya Mathew and he has two children, Sruthy Mariam and Sreyas G Varghese.
+                
+                </p>
+                </div>
+                <hr>
+
+      <!-- </div> -->
+   </div>
+
+
+   <div class="jumbotron page" id="page2">
+        <!-- <div class="container"> -->
+           <!-- <h1 class="display-3">Adding Pagination to your Website</h1><br> -->
+           <hr>
+           <b>
+                Rev. Fr. Cherian. P. Varghese (2006 - 2009)
+              </b>
+           <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                              
+                  <p><img class="img-fluid img-thumbnail" src="new_images/vicars/cherian_p_varghese_small.jpg" width="100" height="140" style ="float: left;
+                    
+                    margin: 0px 5px 25px 240px; margin-top: 5px">
+                  He was born as the son of Late Mr. Geevarghese and Late Mrs Mariamma, Parayanavattom, Thirumoolapuram, Thiruvalla on 1st of April 1955. His home parish is Mar Baselios Orthodox church,Thirumoolapuram. He was ordained as a priest by His Grace Geevarghese Mar Osthathios on 25th May 1981.
+                  </p>
+                  </div>
+                  <hr>
+                  <b>Rev. Fr. Varghese John (2004 - 2006)
+                      </b>
+                          <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                              
+                  <p><img class="img-fluid img-thumbnail" src="new_images/vicars/varghese_john.jpg" width="100" height="140" style ="float: left;
+                    
+                    margin: 0px 5px 25px 240px; margin-top: 5px">
+                  He was born on 29th May 1966 and belongs to Kadakketh House, Mundiyappally P. O, Kunnamthanam. His home parish is Mar Gregorios Church, Mundiyappally. He was ordained as priest on March 1st 1986.
+                  </p>
+                  </div>
+                  <hr>
+                  <b>Rev. Fr. Ninan Varghese (2001 - 2004)
+                      </b>
+                          <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                              
+                  <p><img class="img-fluid img-thumbnail" src="new_images/vicars/ninan_varghese_small.jpg" width="100" height="140" style ="float: left;
+                    
+                    margin: 0px 5px 25px 240px;">
+                  He was born on May 25th 1959 and belongs to the Mavumkal family at Anicadu, Mallappally. His home parish is St. Peters & St. Pauls Orthodox Church, Pathikad. He was ordained as priest on March 1st 1986</p>
+                  </div>
+                  <hr>
+                  <b>Rev. Fr. C. K .Kurien (June 1998 - May 2001)
+
+                      </b>
+                          <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                              
+                  <p><img class="img-fluid img-thumbnail" src="new_images/vicars/ck_kurien_small.jpg" width="100" height="140" style ="float: left;
+                    
+                    margin: 0px 5px 25px 240px;">
+He was born on 23rd Nov 1954 and belongs to Chackumoottil House, Kunnamthanam. His home parish is St. George Orthodox church, Chengaroor. He was ordained as priest on March 17th August 1987.                  
+                  </p>
+                  </div>
+                  <hr>
+  
+        <!-- </div> -->
+     </div>
+
+     <div class="jumbotron page" id="page3">
+            <hr>
+            <b>
+                    Rev. Fr. Mathews John (June 1995 - May 1998)
+               </b>
+            <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                               
+                   <p><img class="img-fluid img-thumbnail" src="new_images/vicars/mathews_john_small.jpg" width="100" height="140" style ="float: left;
+                     
+                     margin: 0px 5px 25px 240px; margin-top: 5px">
+                   He was born on 3rd February 1958 and belongs to Manayil House, Edathua. His home parish is St. George Church, Anaprambal. He was ordained as priest on 21st November 1987.
+                   </p>
+                   </div>
+                   <hr>
+                   <b>Rev. Fr. M. A. Thomas (June 1992 - May 1995)
+    
+                       </b>
+                           <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                               
+                   <p><img class="img-fluid img-thumbnail" src="new_images/vicars/m_a_thomas_small.jpg" width="100" height="140" style ="float: left;
+                     
+                     margin: 0px 5px 25px 240px; margin-top: 5px">
+                   <!-- He was born on 29th May 1966 and belongs to Kadakketh House, Mundiyappally P. O, Kunnamthanam. His home parish is Mar Gregorios Church, Mundiyappally. He was ordained as priest on March 1st 1986. -->
+                   </p>
+                   </div>
+                   <hr>
+                   <b>
+                        Rev. Fr. M. C. Jacob (June 1990 - May 1992)
+                       </b>
+                           <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                               
+                   <p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+                     
+                     margin: 0px 5px 25px 240px;">
+    
+    Rev. Fr. M C Jacob was born on 18th of July 1937 to the Mundaplackal Mannil family at Kunnamthanam. His home parish is St. George Orthodox church, Vellampoika, Kunnamthanam. He was ordained as a priest on 21st of Februry 1960. He is married and his wife is Mrs. Annamma.
+</p>
+    </div>
+                   <hr>
+                   <b>Rev. Fr. T. N. Joseph (Assistant Vicar (1985 - 1987)
+    
+    
+                       </b>
+                           <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                               
+                   <p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+                     
+                     margin: 0px 5px 25px 240px;">
+    Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+                   
+                   
+       </div>
+       <hr>
+       <b>Rev. Barthaloma Corepiscopa (January 1984 - May 1987)
+
+    
+    
+        </b>
+            <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                
+    <p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+      
+      margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+    
+    
+</div>
+<hr>
+<b>Rev. Fr. Paul. P. Issac (June 1981 - December 1983)
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Fr. V. K .George (December 1977 - May 1981)
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+</div>
+
+   <!-- <div class="jumbotron page" id="page2">
+        <hr>
+        <b>Rev. Fr. Philip N Cherian (2015 - 2018)
+           </b>
+        <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                           
+               <p><img class="img-fluid img-thumbnail" src="images/Fr_Joji_small.jpg" width="100" height="140" style ="float: left;
+                 
+                 margin: 0px 5px 25px 240px; margin-top: 5px">
+               Rev. Fr. Joji M Abraham, Malikapeedikayil served the church from 1st of June 2015 to May 2018.
+               </p>
+               </div>
+               <hr>
+               <b>Rev. Fr. Philip N Cherian (2015 - 2018)
+                  </b>
+               <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                  
+                      <p><img class="img-fluid img-thumbnail" src="images/Fr_Joji_small.jpg" width="100" height="140" style ="float: left;
+                        
+                        margin: 0px 5px 25px 240px; margin-top: 5px">
+                      Rev. Fr. Joji M Abraham, Malikapeedikayil served the church from 1st of June 2015 to May 2018.
+                      </p>
+                      </div>
+                      <hr>
+                      <b>Rev. Fr. Philip N Cherian (2015 - 2018)
+                         </b>
+                      <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                         
+                             <p><img class="img-fluid img-thumbnail" src="images/Fr_Joji_small.jpg" width="100" height="140" style ="float: left;
+                               
+                               margin: 0px 5px 25px 240px; margin-top: 5px">
+                             Rev. Fr. Joji M Abraham, Malikapeedikayil served the church from 1st of June 2015 to May 2018.
+                             </p>
+                             </div>
+                             <hr>
+                             <b>Rev. Fr. Philip N Cherian (2015 - 2018)
+                                </b>
+                             <div style="border: 5px solid #eee; margin: 20px" class="row"> 
+                                                
+                                    <p><img class="img-fluid img-thumbnail" src="images/Fr_Joji_small.jpg" width="100" height="140" style ="float: left;
+                                      
+                                      margin: 0px 5px 25px 240px; margin-top: 5px">
+                                    Rev. Fr. Joji M Abraham, Malikapeedikayil served the church from 1st of June 2015 to May 2018.
+                                    </p>
+                                    </div>
+  
+   </div> -->
+   <div class="jumbotron page" id="page4">
+        <hr>
+        <b>Rev. Fr. M. S. Ommen (November 1976 - November 1977)
+
+        
+            
+            
+            </b>
+                <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                    
+        <p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+          
+          margin: 0px 5px 25px 240px;">
+        Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+        
+        
+        </div>
+        <hr>
+<b>Rev. P. V. Koshy Corepiscopa (May 1973 - October 1976)
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Fr. D. George (June 1971 - March 1973)
+
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Fr. K. V. Alexios (August 1966 - 1971 & June 1987 - May 1990)
+
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Fr. Geevarghese Muthalaali (July 1965 - May 1966)
+
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Fr. P. M. George (Barshaino Ramban) (July 1961 - August 1961)
+
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Fr. M. C. Thomas (June 1961 - June 1965)
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Fr. P. G. Thomas (September 1959 - May 1961)
+
+
+
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+
+
+       </div>
+   <div class="jumbotron page" id="page5">
+        <hr>
+        <b>Rev. Fr. Geevarghese Panicker (1953 June - September 1959)
+
+
+        
+            
+            
+            </b>
+                <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                                    
+        <p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+          
+          margin: 0px 5px 25px 240px;">
+        Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+        
+        
+        </div>
+        <hr>
+<b>Rev. Mathai Kathanar (January 1951 - January 1952)
+
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Zacariah Kathanaar ()
+
+
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Bahanana Kathanaar (1947 - 1951)
+
+
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Alexandraose Kathanaar, Thazhathepeedikayil (1926 - 1947)
+
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Abraham Kathanaar, Marettu ()
+
+
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Kuriakose Kathanaar, Kalloor ()
+
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+<hr>
+<b>Rev. Thomas Kathanaar, Thazhathepeedikayil (Early 20th century)
+
+
+
+
+
+    
+    
+    </b>
+        <div style="border: 8px solid #eee; margin: 20px" class="row"> 
+                            
+<p><img class="img-fluid img-thumbnail" src="new_images/vicars/img_not_available.png" width="100" height="140" style ="float: left;
+  
+  margin: 0px 5px 25px 240px;">
+Details not Available,Will try to get more details.If you have any details you can provide to us.               </p>
+
+
+</div>
+
+   </div> 
+   <ul id="pagination-demo" class="pagination-lg" style="
+   margin-bottom: 10px;"></ul>
+   
+</div>
+<div>
+    <footer class="cpy-right bg-theme"style="background-color: rgb(104, 0, 52);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="wthree-social">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-facebook-f icon_facebook"></span>
+                                </a>
+                            </li>
+                            <!-- <li>
+                                <a href="#">
+                                    <span class="fa fa-twitter icon_twitter"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-dribbble icon_dribbble"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-google-plus icon_g_plus"></span>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-lg-right mt-lg-0 mt-4">
+                    <p style="color:white">© 2020 St Marys OrthodoxChurch. All rights reserved | Design by
+                        Smith | Linu | Sherlin
+                        <!-- <a href="http://w3layouts.com"> W3layouts.</a> -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+        <!-- </div> -->
+
+        <script src="new_js/SmoothScroll.min.js"></script>
+        <!-- //smooth-scrolling-of-move-up -->
+        <!-- color switch -->
+        <script src="new_js/blast.min.js"></script>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="new_js/bootstrap.js"></script>
+
+        <script src="new_js/scrolling-nav.js"></script>
+    <script src="new_js/counter.js"></script>
+    <!-- portfolio -->
+    <!-- <script src="js/jquery.picEyes.js"></script> -->
+    <script>
+        $(function () {
+            //picturesEyes($('.demo li'));
+            $('.demo li').picEyes();
+        });
+    </script>
+    <!-- //portfolio -->
+    <!-- start-smooth-scrolling -->
+    <script src="new_js/move-top.js"></script>
+    <script src="new_js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+
+    
+        </body>
+
+</html>

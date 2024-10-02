@@ -1,0 +1,291 @@
+body {
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	width:100%
+}
+td, textarea, input, select {
+	font-family: verdana;
+	font-size: 11px;
+	color: #253741;
+	line-height: 14px;	
+	font-weight: normal;
+}
+.td_head_content{	
+	font-family: verdana;
+	font-size: 11px;
+	color: #253741;
+	font-weight: normal;
+	line-height: 14px;
+	padding:15px;
+	background-color: #CEE2F9; 
+}
+.td_main{ 	
+	background-color: #CEE2F9;
+	border: 1px solid #6A8CA8;
+}
+.td_blue{
+	font-family: verdana;
+	font-size: 11px;
+	color: #253741;
+	font-weight: normal;
+	line-height: 13px;
+	background-color: #CEE2F9;	
+}
+.td_white{
+	font-family: verdana;
+	font-size: 11px;
+	color: #253741;
+	font-weight: normal;
+	padding:3px;
+	line-height: 14px;	
+	background-color: #FFFFFF;
+}
+.td_menu_top {	
+	line-height: 15px;
+	padding:3px;	
+	height: 25px;
+	background-color: #4A514D;
+}
+.td_menu {	
+	line-height: 15px;
+	padding:3px;	
+	height: 25px;
+	background-color: #CEE2F9;
+	border-bottom:1px solid #6A8CA8;
+}
+.td_blue_left{
+	width : 175px;	
+	background-color: #CEE2F9;	
+}
+.td_blue_right{
+	width : 200px;	
+	background-color: #CEE2F9;	
+}
+.td_blue_right_small{
+	width : 20px;	
+	background-color: #CEE2F9;	
+}
+.td_box_top{	
+	border-left :2px solid #6A8CA8;
+	border-right :2px solid #6A8CA8;
+	border-top :2px solid #6A8CA8;
+	padding : 5px;
+	background-color: #FFFFFF;
+	height: 30px;
+}
+.td_box_bottom{	
+	border-left :2px solid #6A8CA8;
+	border-right :2px solid #6A8CA8;
+	border-bottom :2px solid #6A8CA8;	
+	padding : 5px;
+	background-color: #FFFFFF;
+	height: 30px;
+}
+.td_space_top{	
+	background-color: #CEE2F9;
+	border-bottom:6px solid #6A8CA8;
+	height: 30px;
+}
+.td_space_bottom{
+	border-top:6px solid #6A8CA8;
+	background-color: #CEE2F9;
+	height: 30px;
+}
+.td_box{	
+	width : 577px;
+	background-color: #FFFFFF;
+	border-right :2px solid #6A8CA8;
+	border-left :2px solid #6A8CA8;
+	text-align: center;
+	vertical-align :top;
+}
+.td_index_box{	
+	width : 402px;
+	background-color: #FFFFFF;
+	border-right :2px solid #6A8CA8;
+	border-left :2px solid #6A8CA8;
+	text-align: center;
+	vertical-align :top;
+}
+.td_space_top_box{	
+	height: 10px;
+}
+.td_index_box_admin{	
+	width : 582px;
+	background-color: #FFFFFF;
+	border :2px solid #6A8CA8;
+	text-align: center;
+	vertical-align :top;
+}
+.td_blue_line{	
+	background-color: #6A8CA8;
+	height :1px;
+}
+.td_blue_heading{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #253741;
+	line-height: 15px;
+	font-weight: bold;
+	padding-top:5px;
+	border-bottom:2px solid #D3D8E0;
+}
+.td_banner{
+	height: 177px;	
+	background-image:url(../images/banner.jpg);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+.td_footer {
+	font-family: verdana;
+	font-size: 10px;
+	color: #253741;
+	font-weight: normal;
+	line-height: 19px;
+	padding:8px;
+	background-color: #CEE2F9;
+	height: 25px;	
+}
+.text{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #253741;
+	font-weight: normal;
+}
+.text_blue{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #253741;
+	font-weight: normal;
+}
+.text_blue_heading{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #253741;
+	line-height: 20px;
+	font-weight: bold;
+	padding-top:5px;
+}
+a:link {
+	color: red;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+}
+a:visited {
+	color: red;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.a_menu:link {
+	color: #253741;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.a_menu:visited {
+	color: #253741;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.a_menu:hover {
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.a_foot_menu:link {
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.a_foot_menu:visited {
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.a_foot_menu:hover {
+	color: #253741;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.a_top_menu:link {
+	color: #EAF3FA;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.a_top_menu:visited {
+	color: #EAF3FA;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.a_top_menu:hover {
+	color: #87B401;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.hr_line{
+	color : #D3D8E0;	
+}
+.td_light_box{
+	border :1px solid #6A8CA8;
+}
+.blink {
+	color: #2d38be;
+	font-size: 15px;
+	font-weight: bold;
+}
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
